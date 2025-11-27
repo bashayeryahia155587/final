@@ -1,0 +1,150 @@
+
+
+      body{background-color:rgb(237, 218, 224)}
+.p1{
+   color: #eb0707;
+}
+.titles{
+
+    background-color: rgba(193, 165, 193, 0.564) ;
+     text-align: center;
+      width: 150px;
+   margin: 40px auto;
+
+
+}
+details{
+
+word-spacing: 5px;
+}
+table{
+
+margin: 30px auto;
+text-align: center;
+width: 10px;
+}
+.logo{
+    border-bottom:solid 4px rgba(109, 64, 95, 0.607) ;
+   color:rgb(109, 64, 95) ;
+    padding: 30px;
+margin: 30px auto;
+text-align: center;
+width: 150px;
+
+}
+
+.nav{
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+}
+.header {
+   position: relative; 
+   height: 80vh;
+   width: 100%;
+   background-image: linear-gradient(#f1c5ddb1, transparent), url(header3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.content {
+   position: absolute; 
+   bottom: 350px; 
+   left: 50%; 
+   transform: translateX(-50%); 
+   text-align: center; 
+   color: #2c0b1c; 
+   font-size: 20px; 
+
+}
+.nav{display: flex;
+list-style: none;
+text-decoration: none;
+align-items: center;
+background-color: rgba(227, 159, 176, 0.251);
+ justify-content: space-between;
+ margin: 30px;
+ padding: 1px;
+}
+
+ul li a{
+   text-decoration: none;
+padding: 5px; 
+color: rgb(112, 24, 96);
+font-size: large;
+margin: 30px ;
+}
+
+ul li a:hover{
+
+border-bottom: 3px solid ;
+transition: .1s;
+color: #3c7b70;
+    
+}
+
+.flowers{
+
+justify-content: space-between;
+display: flex;
+padding: 1px;
+}
+
+
+
+.content p span{
+
+   color: #d93d3d;
+}
+
+
+.h2 content{
+font-size: 70px;
+color: #582d52;
+
+}
+
+
+.social{
+ font-size: xx-large;
+
+}
+.about{
+   text-align: center;
+font-size: larger;
+}
+.about h4{
+
+font-size: xx-large;
+color: #6b2553;
+
+}
+.about p{
+   padding-top: 1px;
+color: rgb(26, 79, 79);
+   font-size: 20px;
+}
+.vision{
+display: flex;
+ background-color: #b18b95f7;
+}
+.vision .img{
+  width: 50%;
+
+}
+.vision .txt{ 
+   width: 50%;
+   padding: 20px;
+}
+.vision .txt h4{
+   font-size: 30px;
+ color: #270a23;
+}
+.vision .img img {
+width: 600px;
+}
+.vision .txt p {
+   font-size: 20px;
+   color: #0a4e44;
+}
